@@ -1,0 +1,23 @@
+Finding OPTIMAL way from 4 to 4...
+Node4 added to current queue (OPENED NODES)
+
+---------------------------------------------------------------
+Current node: Node4
+
+Current queue (OPENED NODES):
+[HEAD] Node4 [TAIL]
+
+START and END nodes are the SAME
+[NOTE] Reached the goal -- Node4
+
+---------------------------------------------------------------
+[ANSWER] Solution was found -- check CLOSED NODES
+---------------------------------------------------------------
+
+RESULT NODES in reverse way:
+1) Node4
+
+RESULT WAY:
+Node4
+
+Result was saved in file: 'graph_same_result.gv'
