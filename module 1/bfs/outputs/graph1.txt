@@ -1,0 +1,150 @@
+Finding OPTIMAL way from 0 to 4...
+Node0 added to current queue (OPENED NODES)
+
+---------------------------------------------------------------
+Current node: Node0
+
+Current queue (OPENED NODES):
+[HEAD] Node0 [TAIL]
+
+> Edge: 0 --> 1 [opened]
+[NOTE] Found a child -- Node1
+Current num of children: 1
+
+> Edge: 0 --> 3 [opened]
+[NOTE] Found a child -- Node3
+Current num of children: 2
+
+> Edge: 1 --> 2 [opened]
+This edge doesn't fit, because:
+* Start node ISN'T the SAME as a current
+
+> Edge: 2 --> 4 [opened]
+This edge doesn't fit, because:
+* Start node ISN'T the SAME as a current
+
+> Edge: 2 --> 6 [opened]
+This edge doesn't fit, because:
+* Start node ISN'T the SAME as a current
+
+> Edge: 3 --> 4 [opened]
+This edge doesn't fit, because:
+* Start node ISN'T the SAME as a current
+
+> Edge: 3 --> 5 [opened]
+This edge doesn't fit, because:
+* Start node ISN'T the SAME as a current
+
+> Edge: 5 --> 4 [opened]
+This edge doesn't fit, because:
+* Start node ISN'T the SAME as a current
+
+> Edge: 6 --> 5 [opened]
+This edge doesn't fit, because:
+* Start node ISN'T the SAME as a current
+
+[NOTE] Added Node0 to CLOSED NODES
+
+Current queue (OPENED NODES):
+[HEAD] Node1 | Node3 [TAIL]
+
+In CLOSED NODES: Node0
+
+---------------------------------------------------------------
+Current node: Node1
+
+Current queue (OPENED NODES):
+[HEAD] Node1 | Node3 [TAIL]
+
+> Edge: 0 --> 1 [passed]
+This edge doesn't fit, because:
+* Start node ISN'T the SAME as a current
+
+> Edge: 0 --> 3 [passed]
+This edge doesn't fit, because:
+* Start node ISN'T the SAME as a current
+
+> Edge: 1 --> 2 [opened]
+[NOTE] Found a child -- Node2
+Current num of children: 1
+
+> Edge: 2 --> 4 [opened]
+This edge doesn't fit, because:
+* Start node ISN'T the SAME as a current
+
+> Edge: 2 --> 6 [opened]
+This edge doesn't fit, because:
+* Start node ISN'T the SAME as a current
+
+> Edge: 3 --> 4 [opened]
+This edge doesn't fit, because:
+* Start node ISN'T the SAME as a current
+
+> Edge: 3 --> 5 [opened]
+This edge doesn't fit, because:
+* Start node ISN'T the SAME as a current
+
+> Edge: 5 --> 4 [opened]
+This edge doesn't fit, because:
+* Start node ISN'T the SAME as a current
+
+> Edge: 6 --> 5 [opened]
+This edge doesn't fit, because:
+* Start node ISN'T the SAME as a current
+
+[NOTE] Added Node1 to CLOSED NODES
+
+Current queue (OPENED NODES):
+[HEAD] Node3 | Node2 [TAIL]
+
+In CLOSED NODES: Node0, Node1
+
+---------------------------------------------------------------
+Current node: Node3
+
+Current queue (OPENED NODES):
+[HEAD] Node3 | Node2 [TAIL]
+
+> Edge: 0 --> 1 [passed]
+This edge doesn't fit, because:
+* Start node ISN'T the SAME as a current
+
+> Edge: 0 --> 3 [passed]
+This edge doesn't fit, because:
+* Start node ISN'T the SAME as a current
+
+> Edge: 1 --> 2 [passed]
+This edge doesn't fit, because:
+* Start node ISN'T the SAME as a current
+
+> Edge: 2 --> 4 [opened]
+This edge doesn't fit, because:
+* Start node ISN'T the SAME as a current
+
+> Edge: 2 --> 6 [opened]
+This edge doesn't fit, because:
+* Start node ISN'T the SAME as a current
+
+> Edge: 3 --> 4 [opened]
+[NOTE] Reached the goal -- Node4
+
+[NOTE] Added Node3 to CLOSED NODES
+
+Current queue (OPENED NODES):
+[HEAD] Node2 | Node4 [TAIL]
+
+In CLOSED NODES: Node0, Node1, Node3
+
+---------------------------------------------------------------
+[ANSWER] Solution was found -- check CLOSED NODES
+---------------------------------------------------------------
+
+RESULT NODES in reverse way:
+3) Node4
+2) Node3
+1) Node0
+
+RESULT WAY:
+Node0 -> Node3 -> Node4
+
+Result was saved in file: 'graph1_result.gv'
