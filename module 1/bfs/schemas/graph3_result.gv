@@ -1,0 +1,10 @@
+digraph G {
+rankdir = LR;
+    0 -> 5 [label="101", color=lightcoral];
+    1 -> 6 [label="102"];
+    2 -> 1 [label="103"];
+    3 -> 0 [label="104"];
+    4 -> 0 [label="105", color=lightcoral];
+    4 [shape=circle, style=filled, fillcolor=lightgreen];
+    5 [shape=circle, style=filled, fillcolor=lightcoral];
+}
