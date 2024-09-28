@@ -50,7 +50,7 @@ void graph_to_dot_result(const std::vector<Edge>& edges, const std::string& file
 
     std::unordered_map<int, int> coloredWay;
 
-    for (size_t i = 1; i < nodesWay.size(); i++) {
+    for (int i = 1; i < nodesWay.size(); i++) {
         int currentNode = nodesWay[i-1].getNumber();
         coloredWay[currentNode] = nodesWay[i].getNumber();
     }
