@@ -1,0 +1,48 @@
+Finding OPTIMAL way from 4 to 6...
+Node4 added to current queue (OPENED NODES)
+
+---------------------------------------------------------------
+Current node: Node4
+
+Current queue (OPENED NODES):
+[HEAD] Node4 [TAIL]
+
+> Edge: 0 --> 1 [opened]
+This edge doesn't fit, because:
+* Start node ISN'T the SAME as a current
+
+> Edge: 0 --> 3 [opened]
+This edge doesn't fit, because:
+* Start node ISN'T the SAME as a current
+
+> Edge: 1 --> 2 [opened]
+This edge doesn't fit, because:
+* Start node ISN'T the SAME as a current
+
+> Edge: 2 --> 4 [opened]
+This edge doesn't fit, because:
+* Start node ISN'T the SAME as a current
+
+> Edge: 2 --> 6 [opened]
+This edge doesn't fit, because:
+* Start node ISN'T the SAME as a current
+
+> Edge: 3 --> 4 [opened]
+This edge doesn't fit, because:
+* Start node ISN'T the SAME as a current
+
+> Edge: 3 --> 5 [opened]
+This edge doesn't fit, because:
+* Start node ISN'T the SAME as a current
+
+> Edge: 5 --> 4 [opened]
+This edge doesn't fit, because:
+* Start node ISN'T the SAME as a current
+
+> Edge: 6 --> 5 [opened]
+This edge doesn't fit, because:
+* Start node ISN'T the SAME as a current
+
+---------------------------------------------------------------
+[ANSWER] Solution wasn't found...
+---------------------------------------------------------------
