@@ -1,0 +1,20 @@
+Finding way from 4 to 4...
+Node4 added to current stack (OPENED NODES)
+
+---------------------------------------------------------------
+Current node: Node4
+
+START and END nodes are the SAME
+[NOTE] Reached the goal -- Node4
+
+---------------------------------------------------------------
+[ANSWER] Solution was found -- check your stack
+---------------------------------------------------------------
+
+Stack of result:
+Node4 [TOP]
+
+Result:
+Node4
+
+Result was saved in file: 'graph_same_result.gv'
