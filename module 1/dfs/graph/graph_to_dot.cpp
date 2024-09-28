@@ -48,20 +48,24 @@ void graph_to_dot_result(const std::vector<Edge>& edges, const std::string& file
         return;
     }
 
-    std::unordered_set<int> coloredWay;
+    std::unordered_map<int, int> coloredWay;
 
-    for (const auto& node : nodesWay) {
-        coloredWay.insert(node.getNumber());
+    for (size_t i = 1; i < nodesWay.size(); i++) {
+        int currentNode = nodesWay[i-1].getNumber();
+        coloredWay[currentNode] = nodesWay[i].getNumber();
     }
 
     dotFile << "digraph G {\nrankdir = LR;" << std::endl;
 
     for (const auto& edge : edges) {
-        if (coloredWay.count(edge.getStartNode().getNumber()) && coloredWay.count(edge.getEndNode().getNumber())) {
-            dotFile << "    " << std::to_string(edge.getStartNode().getNumber()) << " -> " << std::to_string(edge.getEndNode().getNumber())
+        int start = edge.getStartNode().getNumber();
+        int end = edge.getEndNode().getNumber();
+
+        if (coloredWay.find(start) != coloredWay.end() && coloredWay[start] == end) {
+            dotFile << "    " << std::to_string(start) << " -> " << std::to_string(end)
                     << " [label=\"" << edge.getRuleNumber() << "\", color=lightcoral];" << std::endl;
         } else {
-            dotFile << "    " << std::to_string(edge.getStartNode().getNumber()) << " -> " << std::to_string(edge.getEndNode().getNumber())
+            dotFile << "    " << std::to_string(start) << " -> " << std::to_string(end)
                     << " [label=\"" << edge.getRuleNumber() << "\"];" << std::endl;
         }
     }
