@@ -1,0 +1,288 @@
+<< Поиск в ширину от данных в графах И-ИЛИ >>
+
+CLOSED RULES: []
+CLOSED NODES: [5, 6, 2, 1, 16, 20, 21, 7, 12]
+
+> Current rule is 101
+INPUT NODES: [1, 2]
+ALL of them in CLOSED
+
+Rule 101 added to CLOSED RULES
+Node 3 added to CLOSED NODES
+
+CLOSED RULES: [101]
+CLOSED NODES: [5, 6, 2, 1, 16, 20, 21, 7, 12, 3]
+
+> Current rule is 102
+INPUT NODES: [3, 2, 4]
+[!] Node 4 not in CLOSED
+NOT ALL of them in CLOSED
+
+> Current rule is 103
+INPUT NODES: [5, 6]
+ALL of them in CLOSED
+
+Rule 103 added to CLOSED RULES
+Node 4 added to CLOSED NODES
+
+CLOSED RULES: [101, 103]
+CLOSED NODES: [5, 6, 2, 1, 16, 20, 21, 7, 12, 3, 4]
+
+> Current rule is 104
+INPUT NODES: [8, 23]
+[!] Node 8 not in CLOSED
+NOT ALL of them in CLOSED
+
+> Current rule is 105
+INPUT NODES: [7, 9]
+[!] Node 9 not in CLOSED
+NOT ALL of them in CLOSED
+
+> Current rule is 106
+INPUT NODES: [4, 16, 10]
+[!] Node 10 not in CLOSED
+NOT ALL of them in CLOSED
+
+> Current rule is 107
+INPUT NODES: [11, 12]
+[!] Node 11 not in CLOSED
+NOT ALL of them in CLOSED
+
+> Current rule is 108
+INPUT NODES: [19, 14]
+[!] Node 19 not in CLOSED
+NOT ALL of them in CLOSED
+
+> Current rule is 109
+INPUT NODES: [9, 19]
+[!] Node 9 not in CLOSED
+NOT ALL of them in CLOSED
+
+> Current rule is 110
+INPUT NODES: [10, 15]
+[!] Node 10 not in CLOSED
+NOT ALL of them in CLOSED
+
+> Current rule is 111
+INPUT NODES: [15, 17]
+[!] Node 15 not in CLOSED
+NOT ALL of them in CLOSED
+
+> Current rule is 112
+INPUT NODES: [11, 18]
+[!] Node 11 not in CLOSED
+NOT ALL of them in CLOSED
+
+> Current rule is 113
+INPUT NODES: [20, 21]
+ALL of them in CLOSED
+
+Rule 113 added to CLOSED RULES
+Node 11 added to CLOSED NODES
+
+CLOSED RULES: [101, 103, 113]
+CLOSED NODES: [5, 6, 2, 1, 16, 20, 21, 7, 12, 3, 4, 11]
+
+> Current rule is 114
+INPUT NODES: [17, 22]
+[!] Node 17 not in CLOSED
+NOT ALL of them in CLOSED
+
+> Current rule is 115
+INPUT NODES: [12, 18, 22]
+[!] Node 18 not in CLOSED
+NOT ALL of them in CLOSED
+
+
+Number of NEW ACTIVE (proved) rules: 3
+----------------------------------------------------------------------
+
+> Current rule is 101
+[Already passed]
+
+> Current rule is 102
+INPUT NODES: [3, 2, 4]
+ALL of them in CLOSED
+
+Rule 102 added to CLOSED RULES
+Node 7 already in CLOSED NODES
+
+CLOSED RULES: [101, 103, 113, 102]
+CLOSED NODES: [5, 6, 2, 1, 16, 20, 21, 7, 12, 3, 4, 11]
+
+> Current rule is 103
+[Already passed]
+
+> Current rule is 104
+INPUT NODES: [8, 23]
+[!] Node 8 not in CLOSED
+NOT ALL of them in CLOSED
+
+> Current rule is 105
+INPUT NODES: [7, 9]
+[!] Node 9 not in CLOSED
+NOT ALL of them in CLOSED
+
+> Current rule is 106
+INPUT NODES: [4, 16, 10]
+[!] Node 10 not in CLOSED
+NOT ALL of them in CLOSED
+
+> Current rule is 107
+INPUT NODES: [11, 12]
+ALL of them in CLOSED
+
+Rule 107 added to CLOSED RULES
+Node 10 added to CLOSED NODES
+
+CLOSED RULES: [101, 103, 113, 102, 107]
+CLOSED NODES: [5, 6, 2, 1, 16, 20, 21, 7, 12, 3, 4, 11, 10]
+
+> Current rule is 108
+INPUT NODES: [19, 14]
+[!] Node 19 not in CLOSED
+NOT ALL of them in CLOSED
+
+> Current rule is 109
+INPUT NODES: [9, 19]
+[!] Node 9 not in CLOSED
+NOT ALL of them in CLOSED
+
+> Current rule is 110
+INPUT NODES: [10, 15]
+[!] Node 15 not in CLOSED
+NOT ALL of them in CLOSED
+
+> Current rule is 111
+INPUT NODES: [15, 17]
+[!] Node 15 not in CLOSED
+NOT ALL of them in CLOSED
+
+> Current rule is 112
+INPUT NODES: [11, 18]
+[!] Node 18 not in CLOSED
+NOT ALL of them in CLOSED
+
+> Current rule is 113
+[Already passed]
+
+> Current rule is 114
+INPUT NODES: [17, 22]
+[!] Node 17 not in CLOSED
+NOT ALL of them in CLOSED
+
+> Current rule is 115
+INPUT NODES: [12, 18, 22]
+[!] Node 18 not in CLOSED
+NOT ALL of them in CLOSED
+
+
+Number of NEW ACTIVE (proved) rules: 2
+----------------------------------------------------------------------
+
+> Current rule is 101
+[Already passed]
+
+> Current rule is 102
+[Already passed]
+
+> Current rule is 103
+[Already passed]
+
+> Current rule is 104
+INPUT NODES: [8, 23]
+[!] Node 8 not in CLOSED
+NOT ALL of them in CLOSED
+
+> Current rule is 105
+INPUT NODES: [7, 9]
+[!] Node 9 not in CLOSED
+NOT ALL of them in CLOSED
+
+> Current rule is 106
+INPUT NODES: [4, 16, 10]
+ALL of them in CLOSED
+
+Rule 106 added to CLOSED RULES
+Node 9 added to CLOSED NODES
+
+CLOSED RULES: [101, 103, 113, 102, 107, 106]
+CLOSED NODES: [5, 6, 2, 1, 16, 20, 21, 7, 12, 3, 4, 11, 10, 9]
+
+> Current rule is 107
+[Already passed]
+
+> Current rule is 108
+INPUT NODES: [19, 14]
+[!] Node 19 not in CLOSED
+NOT ALL of them in CLOSED
+
+> Current rule is 109
+INPUT NODES: [9, 19]
+[!] Node 19 not in CLOSED
+NOT ALL of them in CLOSED
+
+> Current rule is 110
+INPUT NODES: [10, 15]
+[!] Node 15 not in CLOSED
+NOT ALL of them in CLOSED
+
+> Current rule is 111
+INPUT NODES: [15, 17]
+[!] Node 15 not in CLOSED
+NOT ALL of them in CLOSED
+
+> Current rule is 112
+INPUT NODES: [11, 18]
+[!] Node 18 not in CLOSED
+NOT ALL of them in CLOSED
+
+> Current rule is 113
+[Already passed]
+
+> Current rule is 114
+INPUT NODES: [17, 22]
+[!] Node 17 not in CLOSED
+NOT ALL of them in CLOSED
+
+> Current rule is 115
+INPUT NODES: [12, 18, 22]
+[!] Node 18 not in CLOSED
+NOT ALL of them in CLOSED
+
+
+Number of NEW ACTIVE (proved) rules: 1
+----------------------------------------------------------------------
+
+> Current rule is 101
+[Already passed]
+
+> Current rule is 102
+[Already passed]
+
+> Current rule is 103
+[Already passed]
+
+> Current rule is 104
+INPUT NODES: [8, 23]
+[!] Node 8 not in CLOSED
+NOT ALL of them in CLOSED
+
+> Current rule is 105
+INPUT NODES: [7, 9]
+ALL of them in CLOSED
+
+Rule 105 added to CLOSED RULES
+Node 13 added to CLOSED NODES
+
+CLOSED RULES: [101, 103, 113, 102, 107, 106, 105]
+CLOSED NODES: [5, 6, 2, 1, 16, 20, 21, 7, 12, 3, 4, 11, 10, 9, 13]
+
+Rule 105 leads to GOAL
+
+Number of NEW ACTIVE (proved) rules: 1
+----------------------------------------------------------------------
+
+SOLUTION WAS FOUND!
+ACTIVE RULES: [101, 103, 113, 102, 107, 106, 105]
+PROVED NODES: [5, 6, 2, 1, 16, 20, 21, 7, 12, 3, 4, 11, 10, 9, 13]
