@@ -1,3 +1,4 @@
+from typing import List
 from graph.node import Node
 from graph.rule import Rule
 import os
@@ -5,7 +6,7 @@ import os
 
 # ПОИСК В ШИРИНУ ОТ ДАННЫХ В ГРАФАХ "И/ИЛИ"
 class SearchBFS:
-    def __init__(self, rule_arr: [Rule]):
+    def __init__(self, rule_arr: List[Rule]):
         self.rule_arr = rule_arr  # список базы правил
 
         self.closed_node_list = []  # список закрытых вершин
@@ -16,7 +17,7 @@ class SearchBFS:
         self.solution_found = 1
         self.solution_not_found = 1
 
-    def realise_searchBFS(self, goal_node: Node, in_node_arr: [Node]):
+    def realise_searchBFS(self, goal_node: Node, in_node_arr: List[Node]):
         # инициализация целевой вершины
         self.goal = goal_node
 
